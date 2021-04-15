@@ -185,8 +185,14 @@
                   </div>
                   <div class="col-sm-10">
                     <div class="btn-group" role="group">
-                      <button type="button" class="btn btn-success">Non-Smoking</button>
-                      <button type="button" class="btn btn-danger">Smoking</button>
+                      <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                        <label class="btn btn-success active">
+                          <input type="radio" name="options" id="non-smoking" autocomplete="off" checked> Non-Smoking 
+                        </label>
+                        <label class="btn btn-danger">
+                          <input type="radio" name="options" id="smoking" autocomplete="off"> Smoking 
+                        </label>
+                      </div>
                     </div>
                   </div>
                 </div>
