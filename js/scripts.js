@@ -1,7 +1,8 @@
-$(document).ready(()=>{
+$(document).ready(function(){
     // Carousel
+    console.log("Working");
     $("#carousel").carousel( { interval : 2000 } );
-    $("#carouselButton").click(()=>{
+    $("#carouselButton").click(function(){
       if($("#carouselButton").children('span').hasClass("fa-pause")){
         $("#carousel").carousel('pause');
         $("#carouselButton").children('span').removeClass("fa-pause");
